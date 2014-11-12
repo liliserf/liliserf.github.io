@@ -29,13 +29,14 @@
 		<!-- Nav -->
 		<div id="nav-wrapper">
 			<div id="nav-bar" class="container">
-				<nav id="nav" >
+				<nav id="nav">
 					<ul>
 						<li><a class="icon fa-home" href="#header"><span>Home</span></a></li>
 						<li><a class="icon fa-bar-chart-o" href="#projects"><span>Projects</span></a></li>
 						<li><a class="icon fa-cog" href="#about"><span>About Me</span></a></li>
-						<li><a class="icon fa-retweet" href=""><span>About Life</span></a></li>
-						<li><a class="icon fa-sitemap" href=""><span>Contact</span></a></li>
+						<li><a class="icon fa-retweet" href="#background"><span>About Life</span></a></li>
+						<li><a class="icon fa-retweet" href="#skills"><span>Skills</span></a></li>
+						<li><a class="icon fa-sitemap" href="#contact"><span>Contact</span></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -92,39 +93,117 @@
 					</div>
 				</section>		
 			</div>
+		<!-- Banner -->
+			<div id="banner-wrapper">
+					<div id="about"></div>
+					<br />
+					<br />				
+				<div class="inner">
+					<section id="banner" class="container">
+						<p>I didn't <strong>choose</strong> the code life. The code life chose <strong>me</strong>.<br />JK, that was all me.</p>
+					</section>
+						<ul class="actions">
+							<a href="#background" class="fa fa-angle-down fa-5x"></a>
+						</ul>				
+					</div>
+			</div>
 		<!-- Main -->
 			<div id="main-wrapper">
 				<div id="main" class="container">
-					<div class="row">
+					<div class="">
 					
 						<!-- Content -->
-							<div id="content" class="11u">
+							<div id="content">
 								<!-- Post -->
 									<article class="box post">
-										<div id="about"></div>
+										<div id="background"></div>
 										<br />
 										<br />
-										<header>
-											<h2><a href="">Enough about me, let's talk about me.</h2>
-										</header>
-										<h3>I mean isn't it possible?</h3>
-										<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit 
-										ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris 
-										sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada 
-										in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat 
-										magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros 
-										consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id 
-										justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet 
-										mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. 
-										Curabitur leo nibh, rutrum eu malesuada in, tristique at erat.</p>
-										<ul class="actions">
-											<li><a href="#" class="button icon fa-file">Continue Reading</a></li>
-										</ul>
-									</article>							
+										<div class="conter-content">
+											<header>
+												<h2>Enough about me, let's talk about me.</h2>
+											</header>
+											<!-- <h3>I mean isn't it possible?</h3> -->
+											<p>I'm a web developer with a formal education in Rhetoric and Writing, a background in advertising account management and a passion for puns, triathlons and small dogs. I throw myself wholly into everything I do, and I'll never turn down a good challenge.</p>
+											<div id="skills"></div>
+											<br />
+											<br />
+											<h3>I've also learned a thing or two</h3>
+											<p>While I am always striving to learn new technologies, currently, my focus includes:</p>
+											
+										</div>
+									</article>	
+							</div>
+							<div class="skills-container">
+								<div >
+									<!-- Skills -->
+										<!-- <article class="box post">
+											
+										</article> -->
+								</div>
+								<div id="skills-table" class="">
+									<table class="skill-images">
+									    <tr>
+									        <td class="skills">
+									        	<div class="img img1"></div> 
+									            <!-- <img src="images/ruby.png"> -->
+									            <!-- <p>Ruby</p> -->
+									        </td>
+									        <td class="skills">
+									        	<div class="img img2"></div> 	
+									        	<!-- <img src="images/js.png"> -->
+									            <!-- <p>JavaScript</p> -->
+									        </td>
+									        <td class="skills"> 
+									        	<div class="img img3"></div> 
+									            <!-- <img src="images/rspec.png"> -->
+									            <!-- <p>RSpec</p> -->
+									        </td>
+									        <td class="skills"> 
+									        	<div class="img img4"></div> 
+									            <!-- <img src="images/sinatra.png"> -->
+									            <!-- <p>Sinatra</p> -->
+									        </td>
+									        <td class="skills"> 
+									        	<div class="img img5"></div> 
+									            <!-- <img src="images/HTML5.png"> -->
+									            <!-- <p>HTML5</p> -->
+									        </td>
+									    </tr>
+									    <tr>
+									        <td class="skills"> 
+									        	<div class="img img6"></div> 
+									            <!-- <img src="images/css3.png"> -->
+									            <!-- <p>CSS3</p> -->
+									        </td>
+									        <td class="skills"> 
+									        	<div class="img img7"></div> 
+									            <!-- <img src="images/bootstrap.png"> -->
+									            <!-- <p>Ruby</p> -->
+									        </td>
+									        <td class="skills"> 
+									        	<div class="img img8"></div> 
+									            <!-- <img src="images/jquery.jpg"> -->
+									            <!-- <p>JQuery</p> -->
+									        </td>
+									        <td class="skills"> 
+									        	<div class="img img9"></div> 
+									            <!-- <img src="images/github.jpeg"> -->
+									            <!-- <p>GitHub</p> -->
+									        </td>
+									        <td class="skills"> 
+									        	<div class="img img10"></div> 
+									        <!-- <img src="images/rails.png"> -->
+									            <!-- <p>Ruby on Rails</p> -->
+									        </td>
+									    </tr>
+									</table>
+								</div>
 							</div>
 					</div>
 				</div>
 			</div>
+			<div id="contact"></div>
 
 		<!-- Footer -->
 			<div id="footer-wrapper">
@@ -134,37 +213,35 @@
 					</header>
 						<div class="11u">
 							<section>
-								<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet 
-								mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur 
-								leo nibh, rutrum eu malesuada.</p>
+								<p>Now that I've completed the accelerated learning program at MakerSquare, I’m seeking opportunities in an environment that values mentorship and collaboration. I'd love to hear from you!</p>
 								<div class="row">
 									<div class="4u">
 										<ul class="icons">
 											<li class="icon fa-github">
-												<a href="https://github.com/liliserf">https://github.com/liliserf</a>
+												<a href="https://github.com/liliserf"><p>https://github.com/liliserf</p></a>
 											</li>
 											<li class="icon fa-envelope">
-												<a href="#">lili.serfaty@gmail.com</a>
+												<a href="#"><p>lili.serfaty@gmail.com</p></a>
 											</li>
 										</ul>
 									</div>
 									<div class="4u">
 										<ul class="icons">
 											<li class="icon fa-twitter">
-												<a href="">@lilserf</a>
+												<a href=""><p>@lilserf</p></a>
 											</li>
 											<li class="icon fa-instagram">
-												<a href="#">lilserf</a>
+												<a href="#"><p>lilserf</p></a>
 											</li>
 										</ul>
 									</div>
 									<div class="4u">
 										<ul class="icons">
 											<li class="icon fa-tumblr">
-												<a href="#">til-to.tumblr.com</a>
+												<a href="#"><p>til-to.tumblr.com</p></a>
 											</li>
 											<li class="icon fa-linkedin">
-												<a href="#">www.linkedin.com/in/liliserfaty/</a>
+												<a href="#"><p>www.linkedin.com/in/liliserfaty/</p></a>
 											</li>
 										</ul>
 									</div>

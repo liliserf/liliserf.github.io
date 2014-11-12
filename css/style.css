@@ -64,6 +64,11 @@
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 	}
 
+	a.fa {
+		border-bottom: none;
+		color: inherit;
+	}
+
 		a strong
 		{
 			-moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
@@ -548,6 +553,9 @@
 					background: #878787;
 				}
 
+		.fa {
+		    text-decoration:none;
+		}
 	/* Box */
 
 		.box
@@ -640,7 +648,7 @@
 	
 		#features-wrapper p
 		{
-			text-align: center;
+			/*text-align: center;*/
 		}
 	
 		#features-wrapper .actions
@@ -869,9 +877,17 @@
 /*********************************************************************************/
 /* Content                                                                       */
 /*********************************************************************************/
-	
+	#content.article {
+        text-align: center;
+        display: inline block;
+    }
+
 	#content
 	{
+		text-align: center;
+		width: 100%;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 		#content > section,
@@ -910,6 +926,84 @@
 				box-shadow: none;
 			}
 	
+/*********************************************************************************/
+/* extra stuff                                                                   */
+/*********************************************************************************/
+	.container {
+		text-align: center;
+	}
+	.box.post {
+		text-align: center;
+		width: 100%;
+    	margin: 0 auto;
+	} 
+
+	.conter-content {
+		width: 50%;
+		margin-right: 25%;
+		margin-left:25%;
+	}
+	.conter-content h2 {
+		margin-bottom: 2em;
+	}
+	.skills-container {
+		width: 80%;
+		margin-right: 10%;
+		margin-left:10%;
+	}
+
+    .skills {
+        text-align: center;
+    }
+    .skills .img {
+        display: inline block;
+        margin: 10px auto; 
+        height: 100px;
+        background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+    }
+
+    .img1{
+    	background-image: url("../images/ruby.png");
+    }
+    .img2{
+    	background-image: url("../images/js.png");
+    }
+    .img3{
+    	background-image: url("../images/rspec.png");
+    }
+    .img4{
+    	background-image: url("../images/sinatra.png");
+    }
+    .img5{
+    	background-image: url("../images/HTML5.png");
+    }
+    .img6{
+    	background-image: url("../images/css3.png");
+    }
+    .img7{
+    	background-image: url("../images/bootstrap.png");
+    }
+    .img8{
+    	background-image: url("../images/jquery.jpg");
+    }
+    .img9{
+    	background-image: url("../images/github.jpeg");
+    }
+    .img10{
+    	background-image: url("../images/rails.png");
+    }
+
+    #skills h3 {
+    	margin-bottom: 1em;
+		margin-top: 1em;
+    }
+
+    #skills-table {
+    	margin-top: 2em;
+    }
+
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
