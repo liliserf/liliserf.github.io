@@ -5,4 +5,7 @@ $(document).ready (function(){
 	    }, 500);
 	    return false;
 	});
+	('#home a').click(function() {
+     $('html,body').animate({scrollTop: $(this).offset().top}, 500);
+}); 
 });
