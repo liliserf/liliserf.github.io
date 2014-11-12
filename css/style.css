@@ -292,14 +292,14 @@
 				ul.icons > li
 				{	
 					position: relative;
-					padding: 2em 0 0 3em;
+					padding: 0 0 0 3em;
 				}
 				
 				ul.icons > li:before
 				{
 					position: absolute;
 					left: 0;
-					top: 2em;
+					top: 0;
 					display: block;
 					background: #878787;
 					color: #e4e4e4;
@@ -943,6 +943,14 @@
 		margin-right: 25%;
 		margin-left:25%;
 	}
+
+	@media (max-width: 900px) {
+	  	.conter-content {
+			width: 90%;
+			margin-right: 5%;
+			margin-left:5%;
+		}
+	}
 	.conter-content h2 {
 		margin-bottom: 2em;
 	}
@@ -951,6 +959,7 @@
 		margin-right: 10%;
 		margin-left:10%;
 	}
+
 
     .skills {
         text-align: center;
@@ -1004,6 +1013,13 @@
     	margin-top: 2em;
     }
 
+    .row.footer {
+    	margin-left: 0;
+    }
+
+    #footer-section {
+    	width: 100%;
+    }
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
